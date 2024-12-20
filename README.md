@@ -1,2 +1,54 @@
-# Final-Project
-The repository containing the code for the Final Project of the Class - High Performance Machine Learning
+# Efficient Fine-Tuning of Vision Transformers with LoRA for Image Classification
+
+## Overview
+
+This project explores efficient fine-tuning of Vision Transformers (ViTs) for ultrasound image classification using Low-Rank Adaptations (LoRA), AdaLoRA, Skip-ViT, Post-Training Quantization (PTQ), and Quantization-Aware Training (QAT). We targeted resource-constrained environments to reduce computational overhead while preserving high accuracy.
+
+## Project Structure
+
+```
+├── Code-LoRA
+│   ├── ABHIK - Adalora.ipynb
+│   ├── ABHIK - DeiT_LoRA.ipynb
+│   ├── ABHIK - LoRA_Initial.ipynb
+│   ├── ABHIK - Skip_ViT.ipynb
+│   └── ABHIK - ViT_OldvNew_Implementation_ViT_Pretrained.ipynb
+├── Quantization-Code
+│   └── PTQ_Notebook.ipynb
+│   └── QAT_Notebook.ipynb
+└── .gitignore
+└── LICENSE
+└── README.md
+
+```
+
+
+## Key Features
+
+### Model Fine-Tuning Techniques:
+
+- LoRA: Introduces low-rank matrices into model layers to reduce trainable parameters.
+
+- AdaLoRA: Dynamically reallocates resources using singular value decomposition (SVD).
+
+- Skip-ViT: Reduces computation by skipping less informative tokens.
+
+### Quantization Approaches:
+
+- PTQ: Post-training quantization to int8 reduces memory usage.
+
+- QAT: Quantization-aware training for improved accuracy in quantized models.
+
+
+## How to run project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-repo/efficient-vit-finetuning.git
+```
+2. For LoRA, run the Jupyter notebooks in the `Code-LoRA` directory.
+3. For quantization, run the Jupyter notebooks in the `Quantization-Code` directory.
+
+## Results
+

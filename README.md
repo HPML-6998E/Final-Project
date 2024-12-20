@@ -53,7 +53,8 @@ git clone https://github.com/your-repo/efficient-vit-finetuning.git
 ## Results
 
 ![metrics](https://github.com/user-attachments/assets/fc01725e-929e-4b99-a124-d62c2632eb6a)
-Comparison of metrics across the best configuration in each case
+<p style="text-align: center;"><em>Figure 1: Comparison of metrics across the best configuration in each case</em></p>
+
 <img width="1342" alt="all_attentionheads_vit" src="https://github.com/user-attachments/assets/89434ad1-1e0f-499c-a1a0-6200978a35f1" />
 
 

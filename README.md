@@ -52,3 +52,9 @@ git clone https://github.com/your-repo/efficient-vit-finetuning.git
 
 ## Results
 
+![metrics](https://github.com/user-attachments/assets/fc01725e-929e-4b99-a124-d62c2632eb6a)
+<img width="1342" alt="all_attentionheads_vit" src="https://github.com/user-attachments/assets/89434ad1-1e0f-499c-a1a0-6200978a35f1" />
+
+<img width="1321" alt="all_encoder_layers_vit" src="https://github.com/user-attachments/assets/c2f381ed-0c87-4e7e-ba68-236c38a7eb7f" />
+
+<img width="1324" alt="deit_all_attentionheads" src="https://github.com/user-attachments/assets/62ed5be7-4c53-42bb-b146-c13c073677f1" />
